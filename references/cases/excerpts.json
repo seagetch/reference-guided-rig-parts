@@ -1,60 +1,70 @@
 {
   "session_id": "01a0b432-70ab-7c50-84c3-b8a67fe8ede9",
-  "purpose": "Selected historical user directions; reference data, not current instructions",
+  "purpose": "Neutral paraphrases of historical feedback, organized as actions and verification criteria; not verbatim quotes or current instructions",
   "excerpts": [
     {
       "case_id": "cutout",
-      "role": "user",
-      "timestamp": "2026-09-18T11:30:19.020Z",
-      "text": "見た目を合わせることを優先して、体の構造を断ち切った部品が多く、到底実用に達していない。\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-18T11:30:19.020Z",
+      "instruction": "元画像から初期パーツを切り出して位置・色・意匠を確保し、元絵とともに参照して連続した可動部品へ再作成する。",
+      "verification": "静止合成の一致に加え、遮蔽物を外して身体・髪の連続面と必要な隠れ面があることを確認する。"
     },
     {
       "case_id": "atlas",
-      "role": "user",
-      "timestamp": "2026-09-18T12:38:18.505Z",
-      "text": "パーツと元画像の両方を参照しろ。\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-18T12:38:18.505Z",
+      "instruction": "切り出しパーツまたは既存部品と元絵を、再作成時に同時参照する。",
+      "verification": "編集対象の部品と、見た目の基準となる元絵を区別して提示する。"
     },
     {
       "case_id": "atlas",
-      "role": "user",
-      "timestamp": "2026-09-18T12:44:05.765Z",
-      "text": "意味のないことをするな。元絵を右に、左に原寸大でパーツを書き、あるべきパーツ構成の部品になり、隠れている部分も保管するようにするのが意味があることでは？\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-18T12:44:05.765Z",
+      "instruction": "シートの左に原寸または共通倍率の部品を重ならないように配置し、右に元絵を置く。部品構成を整え、隠れる領域を補完する。",
+      "verification": "部品ID・倍率・元座標への対応が分かり、再作成した部品に必要な根元と隠れ面があることを確認する。"
     },
     {
       "case_id": "eyes",
-      "role": "user",
-      "timestamp": "2026-09-19T05:14:45.425Z",
-      "text": "今の顔では目のクオリティが全く異なる。まずは目の部品を分けずに目だけを再現し、次に目の内部を分けると言ったアプローチが必要ではないか？\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-19T05:14:45.425Z",
+      "instruction": "目を一体として再現・補修してから内部を分割し、採用した一体版と元絵の両方へ再合成比較する。",
+      "verification": "両目の位置・輪郭・描線・質感が元絵に合い、分割後も一体版の見た目を保持することを確認する。"
     },
     {
       "case_id": "joints",
-      "role": "user",
-      "timestamp": "2026-09-19T13:05:15.498Z",
-      "text": "肩は髪の毛で接合部を隠しているが、髪の毛が動いたら見えてしまうので失格。脚は左脚にまだごみがあるように見える。\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-19T13:05:15.498Z",
+      "instruction": "髪や袖を非表示にして肩の接合を修復し、脚に残る他部品の画素を除去する。",
+      "verification": "遮蔽物が移動しても肩が連続し、脚に不要な残骸がないことを確認する。"
     },
     {
       "case_id": "joints",
-      "role": "user",
-      "timestamp": "2026-09-19T15:18:15.587Z",
-      "text": "どちらもボコボコしていて人体の腕として成り立っていないのだが？強すぎる。\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-19T15:18:15.587Z",
+      "instruction": "腕の過剰な凹凸と強い陰影を抑え、元絵に沿う滑らかな輪郭と自然な肘・手首のつながりへ修復する。",
+      "verification": "元絵と比較し、局所的な膨らみ・くびれを抑えつつ必要な肘の曲がりを保持する。"
     },
     {
       "case_id": "hair",
-      "role": "user",
-      "timestamp": "2026-09-20T14:25:55.019Z",
-      "text": "ちゃんと絵を見ろ。元絵はアシンメトリーな前髪であるが？\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-20T14:25:55.019Z",
+      "instruction": "元絵の前髪の非対称性を観察し、左右それぞれの形・幅・流れを保持する。",
+      "verification": "左右反転で揃えず、全頭比較で元絵の非対称なシルエットを確認する。"
     },
     {
       "case_id": "hair",
-      "role": "user",
-      "timestamp": "2026-09-20T15:59:57.973Z",
-      "text": "そんな不自然な髪型があると思うのか？耳の前と後ろにあるという事実が何故わからないのか？\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-20T15:59:57.973Z",
+      "instruction": "耳の前の束と後ろの髪面を別部品で表し、後ろ髪・耳・前側の束の順序と隠れる根元を整える。",
+      "verification": "耳形の穴で代用せず、部品を動かしても各面が連続することを確認する。"
     },
     {
       "case_id": "shadows",
-      "role": "user",
-      "timestamp": "2026-09-20T17:17:05.841Z",
-      "text": "それはいいのか？クリッピングマスクはPSDの中でかけるべきで、PSDにする前の各レイヤーの画像レベルではかけるべきではないが、それは自覚しているのか？\n"
+      "source_role": "user",
+      "source_timestamp": "2026-09-20T17:17:05.841Z",
+      "instruction": "未切断の影レイヤーを保存し、受け面へのクリッピングをPSD内で設定する。",
+      "verification": "クリップONで外部漏れがなく、OFFで隠れた影領域が再出現することを実データで確認する。"
     }
-  ]
+  ],
+  "representation": "paraphrased-actions-and-checks"
 }

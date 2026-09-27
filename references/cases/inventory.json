@@ -21,20 +21,20 @@
         },
         {
           "path": "references/cases/excerpts.json",
-          "role": "selected-historical-user-directions",
-          "sha256": "7604e786456d1bf4c0052c08c809a2155ecf510eb9196236cfcdb674e4044bfb",
-          "bytes": 2623
+          "role": "paraphrased-actions-and-verification",
+          "sha256": "d9acf6ec7d0f7894bd6b4508f6cff6efa88a9db43fa8c5cbec0622c8f26da6f9",
+          "bytes": 3996
         }
       ]
     },
     {
       "id": "cutout",
-      "title": "初期切り抜きの限界",
-      "status": "rejected-as-rig-ready",
+      "title": "初期切り出しから再作成へ",
+      "status": "initial-input-not-rig-ready",
       "files": [
         {
           "path": "references/cases/cutout-parts.png",
-          "role": "rejected-parts",
+          "role": "initial-cutout-input-for-recreation",
           "source_workspace_relative": "output/Ao-rig-parts/preview/contact-sheet.png",
           "sha256": "3eb28f129443a4194250cb16c7f4b30fc663769695ce19842d190bc55802b59d",
           "bytes": 3326191,

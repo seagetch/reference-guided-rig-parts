@@ -1,4 +1,4 @@
 interface:
   display_name: "元絵参照型パーツ分割"
-  short_description: "元絵と既存パーツを参照し、補修・再合成検査でリグ用PSDを作成"
-  default_prompt: "$reference-guided-rig-parts を使い、元絵と既存パーツを同時参照して、隠れ面と前後関係を保つリギング用パーツを作成・修復してください。"
+  short_description: "元画像から初期パーツを切り出し、再作成・再合成検査でリグ用PSDを作成"
+  default_prompt: "$reference-guided-rig-parts を使い、元画像から初期パーツを切り出し（既存パーツがあればそれを使用）、パーツと元絵を同時参照して再作成・補修し、隠れ面と前後関係を検証したリギング用パーツを作ってください。"
