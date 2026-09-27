@@ -1,0 +1,84 @@
+{
+  "independentReader": "psd-tools 1.19.0",
+  "forceRecomposite": true,
+  "usedMergedPreview": false,
+  "nativeClippingGroups": [
+    {
+      "receiver": "train-back",
+      "clips": [
+        "影_train-back_陰影",
+        "影_スカート下_奥の布"
+      ]
+    },
+    {
+      "receiver": "train-side-r",
+      "clips": [
+        "影_train-side-r_陰影",
+        "影_train-side-r_投影"
+      ]
+    },
+    {
+      "receiver": "train-side-l",
+      "clips": [
+        "影_train-side-l_陰影",
+        "影_train-side-l_投影"
+      ]
+    },
+    {
+      "receiver": "leg-r",
+      "clips": [
+        "影_スカート下_画面左脚_元絵のくっきり影"
+      ]
+    },
+    {
+      "receiver": "leg-l",
+      "clips": [
+        "影_スカート下_画面右脚_元絵のくっきり影"
+      ]
+    },
+    {
+      "receiver": "body",
+      "clips": [
+        "影_body_投影"
+      ]
+    },
+    {
+      "receiver": "skirt",
+      "clips": [
+        "影_skirt_陰影",
+        "影_skirt_投影"
+      ]
+    },
+    {
+      "receiver": "skirt-panel-r",
+      "clips": [
+        "影_skirt-panel-r_陰影"
+      ]
+    },
+    {
+      "receiver": "skirt-panel-l",
+      "clips": [
+        "影_skirt-panel-l_陰影"
+      ]
+    },
+    {
+      "receiver": "apron",
+      "clips": [
+        "影_apron_陰影",
+        "影_apron_投影"
+      ]
+    },
+    {
+      "receiver": "face",
+      "clips": [
+        "影_face_陰影",
+        "影_髪から顔への落ち影"
+      ]
+    }
+  ],
+  "raw97LayersEqualR166": true,
+  "rasterMasks": 0,
+  "visiblePixelsOutsideBaseWithClipping": 0,
+  "recoverableOutsidePixelsWhenNativeClippingDisabled": 175279,
+  "nativeAppImportNotVerified": true
+}

@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "session_id": "01a0b432-70ab-7c50-84c3-b8a67fe8ede9",
+  "privacy": "Local personal reference; not authorization to publish the artwork or conversation",
+  "cases": [
+    {
+      "id": "source",
+      "title": "元絵",
+      "status": "authoritative-for-Ao-only",
+      "files": [
+        {
+          "path": "references/cases/source.png",
+          "role": "original",
+          "source_workspace_relative": "source/original.png",
+          "sha256": "c0af46dd0e3570ca57ed633266fd0b79258aaa0906d655dc0c68e343dc417780",
+          "bytes": 2175723,
+          "dimensions": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "references/cases/excerpts.json",
+          "role": "selected-historical-user-directions",
+          "sha256": "7604e786456d1bf4c0052c08c809a2155ecf510eb9196236cfcdb674e4044bfb",
+          "bytes": 2623
+        }
+      ]
+    },
+    {
+      "id": "cutout",
+      "title": "初期切り抜きの限界",
+      "status": "rejected-as-rig-ready",
+      "files": [
+        {
+          "path": "references/cases/cutout-parts.png",
+          "role": "rejected-parts",
+          "source_workspace_relative": "output/Ao-rig-parts/preview/contact-sheet.png",
+          "sha256": "3eb28f129443a4194250cb16c7f4b30fc663769695ce19842d190bc55802b59d",
+          "bytes": 3326191,
+          "dimensions": [
+            1575,
+            2970
+          ]
+        },
+        {
+          "path": "references/cases/cutout-composite.png",
+          "role": "static-composite-not-structural-proof",
+          "source_workspace_relative": "output/Ao-rig-parts/preview/assembled.png",
+          "sha256": "b79c16095b1c67a6269480b63cfa5da844f515540dd59b871e4a316a1500cea6",
+          "bytes": 1789835,
+          "dimensions": [
+            1024,
+            1536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "title": "元絵と部品の同時参照",
+      "status": "layout-example-not-finished-parts",
+      "files": [
+        {
+          "path": "references/cases/atlas-input.png",
+          "role": "repair-input",
+          "source_workspace_relative": "work/repair-atlases/head-face-nonoverlap-original-scale-left__original-right.png",
+          "sha256": "388fb7ded8cfc009df1f2f8ef864ab3fca17105cb1fad3407e843b7d00391a6f",
+          "bytes": 2906862,
+          "dimensions": [
+            2422,
+            1650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "title": "一体の目から内部を分割",
+      "status": "relative-improvement-not-final-acceptance",
+      "files": [
+        {
+          "path": "references/cases/eyes-input.png",
+          "role": "edit-input-r45",
+          "source_workspace_relative": "work/eye-split-r45/edit-sheet.png",
+          "sha256": "aab7e4cc1bd6d8047247c1b611d33a879f71e8192ad8587b3120c6747315c78b",
+          "bytes": 3872747,
+          "dimensions": [
+            2140,
+            1640
+          ]
+        },
+        {
+          "path": "references/cases/eyes-generated.png",
+          "role": "generated-intermediate-r45",
+          "source_workspace_relative": "work/eye-split-r45/generated.png",
+          "sha256": "349ed41ea3fa5f520e71498c00f4617ac7c862553abda682b1ad2e60c23cd6a0",
+          "bytes": 1057087,
+          "dimensions": [
+            1433,
+            1098
+          ]
+        },
+        {
+          "path": "references/cases/eyes-comparison.png",
+          "role": "original-master-reassembled-r47",
+          "source_workspace_relative": "output/Ao-eye-split-r47/preview/reassembly-comparison.png",
+          "sha256": "724357dc407dbd150bd5eca0e50bca16acf76c49e15b286e79367054a182739f",
+          "bytes": 1223184,
+          "dimensions": [
+            1016,
+            1056
+          ]
+        },
+        {
+          "path": "references/cases/eyes-parts.png",
+          "role": "alpha-review-r47",
+          "source_workspace_relative": "output/Ao-eye-split-r47/preview/parts-alpha-check.png",
+          "sha256": "3810ef592786a4bfc3ede084dc04b48a786d5c965966532573012e3e7bbaf802",
+          "bytes": 500735,
+          "dimensions": [
+            1140,
+            2100
+          ]
+        },
+        {
+          "path": "references/cases/eyes-prompt.txt",
+          "role": "historical-prompt-not-current-instruction",
+          "source_workspace_relative": "work/eye-split-r45/prompt.txt",
+          "sha256": "e0bb67a3773a63279bc12a7781ddd93338df89798ef254eeb40c5a825b1e80a0",
+          "bytes": 2851
+        }
+      ]
+    },
+    {
+      "id": "joints",
+      "title": "接合保護と露出検査",
+      "status": "repair-method-example-not-anatomy-ground-truth",
+      "files": [
+        {
+          "path": "references/cases/joints-comparison.png",
+          "role": "before-v5-after-v6",
+          "source_workspace_relative": "output/Ao-rigging-assets-v6/preview/arm-before-after.png",
+          "sha256": "f4bf849df333f2a5fa58e6b116e290695873417111a719f9bcfc0030102733af",
+          "bytes": 573513,
+          "dimensions": [
+            1580,
+            684
+          ]
+        },
+        {
+          "path": "references/cases/joints-shoulder.png",
+          "role": "uncovered-shoulders",
+          "source_workspace_relative": "output/Ao-rigging-assets-v6/preview/shoulder-after.png",
+          "sha256": "97226af5e467fb1017afd8985d7f3e46cee89a8f290ab7514d565585e0ffde3c",
+          "bytes": 543654,
+          "dimensions": [
+            1160,
+            600
+          ]
+        },
+        {
+          "path": "references/cases/joints-full.png",
+          "role": "full-body-review",
+          "source_workspace_relative": "output/Ao-rigging-assets-v6/preview/full-comparison.png",
+          "sha256": "8173e758eee8d86f8f059aa2ed13de063c3ffc071a7ec6ee041291f2081438ad",
+          "bytes": 4312447,
+          "dimensions": [
+            2068,
+            1580
+          ]
+        },
+        {
+          "path": "references/cases/joints-prompt.txt",
+          "role": "historical-prompt-not-current-instruction",
+          "source_workspace_relative": "work/arm-soft-r83/prompt.txt",
+          "sha256": "6626ecb5b0b59d59665a53eaea66e0055adc0d74a0dbb19cce4f4da80c1c4448",
+          "bytes": 1971
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "title": "非対称と耳前後の構造",
+      "status": "partial-repair-and-later-input-not-final",
+      "files": [
+        {
+          "path": "references/cases/hair-head-comparison.png",
+          "role": "original-before-after-r136",
+          "source_workspace_relative": "output/Ao-head-back-r136/preview/head-comparison.png",
+          "sha256": "10b51c5ff195d961a22f314f7e2918966aaa7b4c2f552ac216fedf4a7f527f0b",
+          "bytes": 2879596,
+          "dimensions": [
+            2490,
+            885
+          ]
+        },
+        {
+          "path": "references/cases/hair-ear-input.png",
+          "role": "later-repair-input-r159",
+          "source_workspace_relative": "work/ear-depth-r159/edit-sheet.png",
+          "sha256": "82ae49f440807a4a7b78455dcb84e9376a8719fad6fe3f25cc8f8236d80d0d3d",
+          "bytes": 1836162,
+          "dimensions": [
+            1840,
+            790
+          ]
+        },
+        {
+          "path": "references/cases/hair-ear-prompt.txt",
+          "role": "historical-prompt-not-current-instruction",
+          "source_workspace_relative": "work/ear-depth-r159/prompt.txt",
+          "sha256": "2ba905ef0e83c42126ca4bf3d449a5f3eeb1950ecc570e019c847e4f1c30c03f",
+          "bytes": 2557
+        }
+      ]
+    },
+    {
+      "id": "shadows",
+      "title": "焼き込みの棄却とネイティブクリップ",
+      "status": "native-data-check-not-full-art-or-target-app-acceptance",
+      "files": [
+        {
+          "path": "references/cases/shadows-rejected-bake.png",
+          "role": "both-problematic-left-leak-right-destructive-bake",
+          "source_workspace_relative": "output/Ao-shadow-mask-r167/preview/rectangle-fix-comparison.png",
+          "sha256": "b6f8a975447c5b7a7195f9944960778c879922665531d4a4354530c3d5f68a8a",
+          "bytes": 2427509,
+          "dimensions": [
+            2068,
+            1580
+          ]
+        },
+        {
+          "path": "references/cases/shadows-native.png",
+          "role": "independent-recomposite-r168",
+          "source_workspace_relative": "output/Ao-native-clipping-r168/preview/native-psd-checker.png",
+          "sha256": "5b401bd4279a9ca0056c6bad10705a707303d59f9072677688d300348788cb6a",
+          "bytes": 1311360,
+          "dimensions": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "path": "references/cases/shadows-leg.png",
+          "role": "leg-shadow-review-r168",
+          "source_workspace_relative": "output/Ao-native-clipping-r168/preview/native-leg-detail.png",
+          "sha256": "45381e8e4673e44a55e3528c817d5f9f5e58b7d767a2322a8ba74fbe7be8ab4c",
+          "bytes": 509347,
+          "dimensions": [
+            1280,
+            480
+          ]
+        },
+        {
+          "path": "references/cases/shadows-verification.json",
+          "role": "historical-independent-reader-report",
+          "source_workspace_relative": "output/Ao-native-clipping-r168/metadata/independent-verification.json",
+          "sha256": "8d1e4b10063e3f541877996bd47c0d7e3deae4bb11299bf28521837f98ea6c01",
+          "bytes": 1704
+        },
+        {
+          "path": "references/cases/shadows-prompt.txt",
+          "role": "historical-prompt-not-current-instruction",
+          "source_workspace_relative": "work/leg-shadow-r166/prompt.txt",
+          "sha256": "7cc42b45294e891518f4e1a5cd97843b4095beb755fd0fbc96aa8508f1e9fdb1",
+          "bytes": 1886
+        }
+      ]
+    }
+  ]
+}
